@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "fv5GnLIPV8aCPlywyuL3vQTiFBnx0H8uzqfEm694ujg=",
+  "Source": "CrystalCastlesBackend",
+  "BasePath": "_content/CrystalCastlesBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
