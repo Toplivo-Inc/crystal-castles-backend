@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/andre/CrystalCastlesBackend/CrystalCastlesBackend.csproj": {}
+    "/home/andre/CrystalCastlesBack/CrystalCastlesBackend/CrystalCastlesBackend.csproj": {}
   },
   "projects": {
-    "/home/andre/CrystalCastlesBackend/CrystalCastlesBackend.csproj": {
+    "/home/andre/CrystalCastlesBack/CrystalCastlesBackend/CrystalCastlesBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/andre/CrystalCastlesBackend/CrystalCastlesBackend.csproj",
+        "projectUniqueName": "/home/andre/CrystalCastlesBack/CrystalCastlesBackend/CrystalCastlesBackend.csproj",
         "projectName": "CrystalCastlesBackend",
-        "projectPath": "/home/andre/CrystalCastlesBackend/CrystalCastlesBackend.csproj",
+        "projectPath": "/home/andre/CrystalCastlesBack/CrystalCastlesBackend/CrystalCastlesBackend.csproj",
         "packagesPath": "/home/andre/.nuget/packages/",
-        "outputPath": "/home/andre/CrystalCastlesBackend/obj/",
+        "outputPath": "/home/andre/CrystalCastlesBack/CrystalCastlesBackend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/andre/.nuget/NuGet/NuGet.Config"

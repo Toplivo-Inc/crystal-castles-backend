@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QZYKcaIIOok=",
+  "dgSpecHash": "thjjThHZb4g=",
   "success": true,
-  "projectFilePath": "/home/andre/CrystalCastlesBackend/CrystalCastlesBackend.csproj",
+  "projectFilePath": "/home/andre/CrystalCastlesBack/CrystalCastlesBackend/CrystalCastlesBackend.csproj",
   "expectedPackageFiles": [
     "/home/andre/.nuget/packages/microsoft.aspnetcore.openapi/9.0.9/microsoft.aspnetcore.openapi.9.0.9.nupkg.sha512",
     "/home/andre/.nuget/packages/microsoft.entityframeworkcore/9.0.1/microsoft.entityframeworkcore.9.0.1.nupkg.sha512",
