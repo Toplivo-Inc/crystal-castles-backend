@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrystalCastlesBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+991fe6928ad92d12f1ec7fc225c1a5a8ccc10d28")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d78911a20d3911d66b0c00a4b7ebafd0ee09fd84")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrystalCastlesBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrystalCastlesBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
