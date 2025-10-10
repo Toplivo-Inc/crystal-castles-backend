@@ -1,9 +1,12 @@
+namespace CrystalCastlesBackend.Models;
+
 public class Generator
 {
-    public Guid GeneratorId { get; set; }
-    public string Key { get; set; }
-    public string Description { get; set; }
-    public bool IsProcessed { get; set; }
-    public Guid PrikolId { get; set; }
-    public Guid UsserId { get; set; }
+    public required Guid GeneratorId { get; set; }
+    public required string Key { get; set; }
+    public required string Name { get; set; }
+    public string? Description { get; set; }
+    public string? ImageUrl { get; set; }
+
+    public List<Prikol>? Prikols { get; set; }
 }

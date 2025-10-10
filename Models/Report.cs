@@ -1,9 +1,11 @@
+namespace CrystalCastlesBackend.Models;
+
 public class Report
 {
-    public Guid GeneratorId { get; set; }
-    public string Title { get; set; }
-    public string Description { get; set; }
+    public required Guid ReportId { get; set; }
+    public required string Title { get; set; }
+    public string? Description { get; set; }
     public bool IsProcessed { get; set; }
-    public Guid PrikolId { get; set; }
-    public Guid UserId { get; set; }
+    public Prikol? PrikolId { get; set; }
+    public User? UserId { get; set; }
 }

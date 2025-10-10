@@ -1,11 +1,21 @@
+namespace CrystalCastlesBackend.Models;
+
 public class Prikol
 {
-    public Guid PrikolId { get; set; }
-    public string ImageUrl { get; set; }
+    public required Guid PrikolId { get; set; }
+    public string? ImageUrl { get; set; }
+    public PrikolStatusEnum Status { get; set; }
     public bool IsPrivate { get; set; }
-    public string BanMessage { get; set; }
+    public string? BanMessage { get; set; }
+    public required User User { get; set; }
     public Guid UserId { get; set; }
-    public Guid GeneratorId { get; set; }
+    public Generator? GeneratorId { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime BannedAt { get; set; }
+
+    public List<PrikolLike>? PrikolLikes { get; set; }
+    public List<Report>? Reports { get; set; }
+    public required PrikolGenerationProcess PrikolGenerationProcess { get; set; }
+    public List<PrikolTransition>? PrikolTransitions { get; set; }
+
 }

@@ -3,8 +3,8 @@ namespace CrystalCastlesBackend.Models;
 
 public class PrikolLike
 {
-    public Guid PrikolLikeId { get; set; }
-    public Guid UserId { get; set; }
-    public Guid PrikolId { get; set; }
-    public DateTime CreatedAt { get; set; }
+    public required Guid PrikolLikeId { get; set; }
+    public required User UserId { get; set; }
+    public required Prikol PrikolId { get; set; }
+    public required DateTime CreatedAt { get; set; }
 }

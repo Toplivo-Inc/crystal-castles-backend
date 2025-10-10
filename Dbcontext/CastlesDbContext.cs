@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using CrystalCastlesBackend.Models;
 
 public class CastlesDbContext : DbContext
 {
@@ -9,13 +10,13 @@ public class CastlesDbContext : DbContext
 
     }
 
-    public DbSet<Generators> Generators { get; set; }
-    public DbSet<Prikol> Prikols { get; set; }
-    public DbSet<PrikolGenerationProcess> PrikolGenerationProcesses { get; set; }
-    public DbSet<Report> Reports { get; set; }
-    public DbSet<User> Users { get; set; }
-    public DbSet<PrikolGenerationTransition> PrikolGenerationTransition { get; set; }
-    public DbSet<PrikolTransition> PrikolTransition { get; set; }
-    public DbSet<PrikolLike> PrikolLikes { get; set; }
+    public required DbSet<Generator> Generators { get; set; }
+    public required DbSet<Prikol> Prikols { get; set; }
+    public required DbSet<PrikolGenerationProcess> PrikolGenerationProcesses { get; set; }
+    public required DbSet<Report> Reports { get; set; }
+    public required DbSet<User> Users { get; set; }
+    public required DbSet<PrikolGenerationTransition> PrikolGenerationTransition { get; set; }
+    public required DbSet<PrikolTransition> PrikolTransition { get; set; }
+    public required DbSet<PrikolLike> PrikolLikes { get; set; }
 
 }
