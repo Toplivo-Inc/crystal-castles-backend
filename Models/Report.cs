@@ -8,4 +8,6 @@ public class Report
     public bool IsProcessed { get; set; }
     public Prikol? PrikolId { get; set; }
     public User? UserId { get; set; }
+    public Prikol? Prikol { get; set; }
+    public User? User { get; set; }
 }

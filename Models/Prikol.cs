@@ -8,8 +8,9 @@ public class Prikol
     public bool IsPrivate { get; set; }
     public string? BanMessage { get; set; }
     public required User User { get; set; }
+    public required Generator Generator { get; set; }
+    public Guid GeneratorId { get; set; }
     public Guid UserId { get; set; }
-    public Generator? GeneratorId { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime BannedAt { get; set; }
 
