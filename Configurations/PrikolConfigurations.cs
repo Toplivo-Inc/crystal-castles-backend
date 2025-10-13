@@ -19,7 +19,5 @@ public class PrikolConfiguration : IEntityTypeConfiguration<Prikol>
           .OnDelete(DeleteBehavior.Restrict);
 
         //TO-DO fix models if needed and finish with connections
-
-
     }
 }
