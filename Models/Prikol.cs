@@ -17,6 +17,7 @@ public class Prikol
     public List<PrikolLike>? PrikolLikes { get; set; }
     public List<Report>? Reports { get; set; }
     public required PrikolGenerationProcess PrikolGenerationProcess { get; set; }
+    public List<PrikolGenerationTransition>? PrikolGenerationTransitions { get; set; }
     public List<PrikolTransition>? PrikolTransitions { get; set; }
 
 }

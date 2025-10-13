@@ -16,6 +16,8 @@ public class User
     public DateTime? BannedAt { get; set; }
 
     public List<PrikolLike>? PrikolLikes { get; set; }
+    public List<PrikolGenerationTransition>? PrikolGenerationTransitions { get; set; }
+    public List<PrikolTransition>? PrikolTransitions { get; set; }
     public List<Prikol>? Prikols { get; set; }
     public List<Report>? Reports { get; set; }
 
