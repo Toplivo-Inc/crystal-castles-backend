@@ -18,5 +18,5 @@ public class CastlesDbContext : DbContext
     public required DbSet<PrikolGenerationTransition> PrikolGenerationTransition { get; set; }
     public required DbSet<PrikolTransition> PrikolTransition { get; set; }
     public required DbSet<PrikolLike> PrikolLikes { get; set; }
-
 }
+
