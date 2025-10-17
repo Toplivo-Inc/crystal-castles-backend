@@ -6,7 +6,7 @@ public class UserRepository
     private CastlesDbContext _dbContext;
     public UserRepository(CastlesDbContext dbContext)
     {
-        dbContext = _dbContext;
+        _dbContext = dbContext;
 
     }
     public async Task<List<User>> Get()
@@ -40,12 +40,14 @@ public class UserRepository
 
         return userEntity.UserId;
     }
-    public async Task<Guid> Delete(User user)
+    public async Task<Guid> Delete(Guid userId)
     {
-      
-
-
+        await _dbContext.Users.Where(b =>b.UserId == userId)
+          .ExecuteDeleteAsync(); 
+        
+        return userId;
     }
+
     public async Task<Guid> Update(Guid userId, string username, string email, string avatarUrl,
         string textStatus, string emojiStatus, RoleEnum role, string banMessage,
         DateTime createdAt, DateTime updatedAt, DateTime bannedAt)
