@@ -16,6 +16,12 @@ public class PrikolLikeConfiguration : IEntityTypeConfiguration<PrikolLike>
           .WithMany(i => i.PrikolLikes)
           .HasForeignKey(k => k.PrikolId);
 
+        builder.HasIndex(i => i.UserId)
+          .IsUnique();
+        
+        builder.HasIndex(i =>i.PrikolId)
+          .IsUnique();
+
 
     }
 }

@@ -17,9 +17,12 @@ public class PrikolTransitionConfiguration : IEntityTypeConfiguration<PrikolTran
           .HasForeignKey(i => i.UserId);
 
         builder.HasOne(e => e.PreviousTransition)
-          .WithOne() 
+          .WithOne()
           .HasForeignKey<PrikolTransition>(e => e.PreviousTransitionId)
           .OnDelete(DeleteBehavior.Restrict);
+
+        builder.HasIndex(i => i.PreviousTransitionId)
+          .IsUnique();
     }
 }
 

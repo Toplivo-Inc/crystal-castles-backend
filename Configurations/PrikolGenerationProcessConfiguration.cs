@@ -13,5 +13,6 @@ public class PrikolGenerationProcessConfiguration : IEntityTypeConfiguration<Pri
                .WithOne(p => p.PrikolGenerationProcess)
                .HasForeignKey<PrikolGenerationProcess>(p => p.PrikolId)
                .OnDelete(DeleteBehavior.Cascade);
+        
     }
 }
