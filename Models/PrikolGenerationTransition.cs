@@ -4,10 +4,10 @@ namespace CrystalCastlesBackend.Models;
 public class PrikolGenerationTransition
 {
     public required Guid PrikolGenerationTransitionId { get; set; }
-    public required Prikol Prikol { get; set; }
+    public Prikol Prikol { get; set; } = null!;
     public Guid PrikolId { get; set; }
     public DateTime TransitionTimestamp { get; set; }
-    public required User User { get; set; }
+    public User User { get; set; } = null!;
     public Guid UserId { get; set; }
     public PrikolGenerationStatusEnum NewState { get; set; }
     public JsonDocument? Payload { get; set; }
