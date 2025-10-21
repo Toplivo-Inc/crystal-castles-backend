@@ -8,9 +8,9 @@ public class Prikol
     public string? Description { get; set; }
     public string? BanMessage { get; set; }
     public User User { get; set; } = null!;
-    public Generator Generator { get; set; }
+    public Generator Generator { get; set; } = null!;
     public Guid GeneratorId { get; set; }
-    public Guid UserId { get; set; }
+    public Guid UserId { get; set;} 
     public DateTime CreatedAt { get; set; }
     public DateTime BannedAt { get; set; }
 
