@@ -1,6 +1,6 @@
 namespace CrystalCastlesBackend.Interfaces
 {
-    public interface IPrikolTransitionRepository
+    public interface IGeneratorRepositroy
     {
     }
 }

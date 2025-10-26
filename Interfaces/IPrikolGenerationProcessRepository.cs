@@ -1,9 +1,6 @@
-using CrystalCastlesBackend.Models;
-
-public interface IPrikolGenerationProcessRepository
+namespace CrystalCastlesBackend.Interfaces
 {
-    Task<List<PrikolGenerationProcess>> Get();
-    Task<Guid> Create(PrikolGenerationProcess prikolGenerationProcess);
-    Task<Guid> Delete(Guid prikolId);
-    Task<Guid> Update();
+    public interface IPrikolGenerationProcessRepository
+    {
+    }
 }
